@@ -1,0 +1,21 @@
+name: fixresponsi
+description: Aplikasi resep makanan
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  url_launcher: ^6.0.3
+  cached_network_image: ^3.0.0 # Dependensi yang ditambahkan
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
